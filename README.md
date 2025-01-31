@@ -2,5 +2,6 @@
 
 Práctica 1
 
-Matías Serrano
-Edgar Reyes
+Matías Serrano.
+
+Edgar Reyes.
