@@ -1,0 +1,58 @@
+🎮 Desarrollo de un Videojuego Roguelike
+Los roguelike son videojuegos caracterizados por niveles generados proceduralmente, muerte permanente y una alta rejugabilidad. Desarrollar un juego de este tipo requiere planificación en diseño, mecánicas y tecnología.
+
+1️⃣ Características Claves de un Roguelike
+✔ Generación Procedural – Los mapas, enemigos y objetos cambian en cada partida.
+✔ Muerte Permanente – Si el jugador muere, debe comenzar desde el inicio.
+✔ Progresión Aleatoria – El equipamiento y habilidades varían en cada intento.
+✔ Exploración y Desafío – Se incentiva la toma de decisiones estratégicas.
+✔ Turnos o Acción en Tiempo Real – Puede ser por turnos (ej. NetHack) o en tiempo real (ej. Hades).
+
+2️⃣ Etapas del Desarrollo
+📌 Preproducción (Planificación y Diseño)
+🔹 Definir la idea central: ¿Será un dungeon crawler, un roguelike de plataformas o con mecánicas RPG?
+🔹 Decidir el estilo de combate: Turnos, acción en tiempo real o híbrido.
+🔹 Diseño de progresión: ¿Habrá mejoras permanentes o cada intento será desde cero?
+🔹 Estilo visual y artístico: Pixel art (Dead Cells), 3D estilizado (Hades), etc.
+
+🛠 Producción (Implementación del Juego)
+🔹 Elegir un motor de juego:
+
+Unity (C#) – Versátil, buena para 2D y 3D.
+Godot (GDScript, C#) – Open source, ligera y eficiente en 2D.
+Unreal Engine (C++, Blueprints) – Para gráficos más avanzados.
+🔹 Generación Procedural:
+
+Algoritmos como Perlin Noise, Celular Automata, o Binary Space Partitioning pueden crear niveles únicos.
+Controlar la dificultad con generación inteligente de salas y enemigos.
+🔹 Sistema de Combate y Jugabilidad:
+
+Física y colisiones si es un juego de acción.
+Inteligencia artificial para enemigos con patrones de ataque variados.
+Controles fluidos y responsivos.
+🔹 UI y Feedback Visual:
+
+Barra de vida, inventario, indicadores de peligro.
+Efectos visuales y sonoros para mejorar la inmersión.
+🎨 Postproducción (Pulido y Lanzamiento)
+🔹 Balanceo del juego: Ajustar dificultad, objetos y enemigos.
+🔹 Pruebas de jugabilidad: Recolectar feedback de jugadores.
+🔹 Optimización: Reducir tiempos de carga, mejorar FPS.
+🔹 Lanzamiento en plataformas: PC (Steam, Itch.io), Consolas, Móviles.
+
+3️⃣ Herramientas Útiles
+📌 Motores de Juego: Unity, Godot, Unreal Engine.
+📌 Arte y Animación: Aseprite (pixel art), Blender (3D), Photoshop.
+📌 Sonido y Música: Audacity, FMOD, Bosca Ceoil.
+📌 Versionado y Gestión: GitHub, Trello, Notion.
+
+4️⃣ Ejemplos de Roguelike Exitosos
+🔥 The Binding of Isaac – Mazmorras generadas proceduralmente con mejoras aleatorias.
+🔥 Hades – Roguelike de acción con narrativa profunda y progresión permanente.
+🔥 Dead Cells – Plataformas y combate rápido en un mundo generado aleatoriamente.
+🔥 Slay the Spire – Mezcla de roguelike y construcción de mazos.
+
+🎯 Conclusión
+Crear un roguelike es un desafío técnico y de diseño, pero la combinación de generación procedural, progresión única y mecánicas dinámicas puede resultar en un juego altamente rejugable y adictivo. La clave está en un balance adecuado de dificultad, variedad en cada intento y un sistema de combate fluido.
+
+Si necesitas más detalles sobre una parte específica, dime y te ayudo. 🚀🎮
